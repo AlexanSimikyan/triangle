@@ -11,7 +11,38 @@ var bx = 0;
 var by = 400;
 var cx = 400;
 var cy = 400;
-var i = setInterval('game()');
+function start(){
+	var i = setInterval('game()',1);
+	
+}
+function stop(){
+	var i = clearInterval(1);
+}
+
+
+
+
+
+
+
+
+
+function command() {
+	let a = document.getElementById('input');
+	var com = a.value;
+	console.log(com);
+	switch (com) {
+		case 'start':
+			start();
+			break;
+		case 'stop':
+			stop();
+		default:
+			break;
+	}
+	a.value = '';
+	
+}
 function game(){
 	let n = Math.round((Math.random()*10))%3;
 	if(n == 0){

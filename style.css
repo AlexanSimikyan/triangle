@@ -1,0 +1,17 @@
+.div_canvas{
+    border-style: groove;
+    width: 600px;
+    height: 600px;
+}
+.div_color{
+    border-style: groove;
+    position: absolute;
+    left: 620px;
+    top: 8px;
+    width: 600px;
+    height: 600px;
+}
+
+
+
+
