@@ -3,10 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 <body>
-	<canvas id="canvas" height="500" width="500" style="border-style: groove;"></canvas>
+	<div class='div_canvas'>
+		<canvas id="canvas" height="500" width="500" style="border-style: groove;"></canvas>
+		<p>write <i>start</i> to start and write <i>stop</i> to stop</p>
+		<input id='input' type="text">
+		<button onclick="command()"> submit</button>
+	</div>
+	<textarea id='texta' readonly>history</textarea>
 	<script src="script.js"></script>
 </body>
 </html>

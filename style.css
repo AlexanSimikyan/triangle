@@ -11,7 +11,13 @@
     width: 600px;
     height: 600px;
 }
-
+#texta{
+	position: absolute;
+	left: 620px;
+	top: 8px;
+	width: 600px;
+	height: 600px;
+}
 
 
 
